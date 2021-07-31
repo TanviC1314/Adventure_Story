@@ -1,12 +1,3 @@
-# Choose your own Adventure Story
-# while True:
-#     ans = input("seven: ")
-#     if ans == "5":
-#         print("Correct")
-#     else:
-#         print("Incorrect")
-#     if ans == "5":
-#         break
 print("CHOOSE YOUR OWN ADVENTURE STORY!")
 name = input("Before starting these Adventure, Please enter your Name: ")
 print(f"\nHello {name}, my name is Star and I'll instruct and guide you in your Adventures Journey!")
@@ -105,7 +96,7 @@ print('''
    _  |@@|
   / \ \--/ __
   ) O|----|  |   __
- / / \ }{ /\ )_ / _\
+ / / \ }{ /\ )_ / _\\
  )/  /\__/\ \__O (__
 |/  (--/\--)    \__/
 /   _)(  )(_
@@ -131,12 +122,26 @@ while True:
               "\nYour Answer was incorrect, Let's Retry")
     if smart == "2":
         break
+print('''
+      ______
+   ,-' ;  ! `-.
+  / :  !  :  . \\
+ |_ ;   __:  ;  |
+ )| .  :)(.  !  |
+ |"    (##)  _  |
+ |  :  ;`'  (_) (
+ |  :  :  .     |
+ )_ !  ,  ;  ;  |
+ || .  .  :  :  |
+ |" .  |  :  .  |
+ |____;-----.___|
 
+''')
 print("Ohh, unfortunately the crazy scientist saw you, He has trapped"
       "\nyou in a small cell and wrote a note which includes:"
       "\nHello visitor, I have noticed your bravery and I am giving"
       "\nyou a chance to safely return your home. There are three"
-      "\ndoors in front of you,1st door is full of poisonous Snakes,"
+      "\ndoors in front of you, 1st door is full of poisonous Snakes,"
       "\nSecond door has a hungry lion which has not ate anything"
       "\nfor 2 months, the third door is a loop, probably endless."
       "\nOnly one of them will lead you to freedom!")
@@ -151,17 +156,17 @@ while True:
         print("As the Lion had not ate anything for 2 moths he won't"
               "\nbe alive")
         print(f"\nNow you are at your home. Good Job {name} your are"
-              "\npretty brave.I hope will meet soon, with a new Adventure!")
+              "\npretty brave. I hope will meet soon, with a new Adventure!\n")
     elif logic == "1":
         print("\nOops!"
-              "The snake bite you, lets travel back to time and choose"
+              "The snake bite you, lets travel back to time and choose\n"
               "\nother Door!")
     elif logic == "3":
-        print("Oops!"
-              "The door brought you back to the Cell!")
+        print("\nOops!"
+              "The door brought you back to the Cell!\n")
     else:
-        print("Oops!"
-              "Invalid Door")
+        print("\nOops!"
+              "Invalid Door\n")
     if logic == "2":
         break
 
